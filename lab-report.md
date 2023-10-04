@@ -23,5 +23,23 @@ The working directory when the code was run was /home/lecture1/messages.
 
 The argument given is a relative path from messages to the text file inside it named en-us.txt. However, since cd stands for change _directory_ and we used a files location as the argument, an error occurred stating that the path specified was not a directory.
 
+## ls Command With No Arguments
+> ![Image](abspath4.png)
 
+The working directory when the code was run was /home/lecture1.
 
+When there are no arguments given to the command cd it just means that there is no path given to change directory to so we stay in the same directory. This is not an error because leaving the argument blank is the same as the argument "./" being inputted which is just the relative path to the current directory.
+
+## ls Command With Path to a Directory
+> ![Image](abspath5.png)
+
+The working directory when the code was run was /home/lecture1.
+
+The argument given is a relative path from home into the lecture1 directory and then into the messages directory. The lecture1 directory is in the home directory and the messages directory is in the lecture1 directory so the path given was valid and therefore no errors occurred.
+
+## ls Command With Path to a File
+> ![Image](abspath6.png)
+
+The working directory when the code was run was /home/lecture1.
+
+The argument given is a relative path from messages to the text file inside it named en-us.txt. However, since cd stands for change _directory_ and we used a files location as the argument, an error occurred stating that the path specified was not a directory.
