@@ -29,14 +29,14 @@ The argument given is a relative path from messages to the text file inside it n
 
 The working directory when the code was run was /home/lecture1.
 
-When there are no arguments given to the command ls it lists the contents of the current working directory because having no argument is the same as inputting "./". "./" is the relative path to the current working directory so the ls command lists what is in the working directory. Therefore, the command worked exactly as it should have so there is no error.
+When there are no arguments given to the command ls it lists the contents of the working directory because having no argument is the same as inputting "./". "./" is the relative path to the working directory so the ls command lists what is in the working directory. Therefore, the command worked exactly as it should have so there is no error.
 
 ## ls Command With Path to a Directory
 > ![Image](abspath5.png)
 
 The working directory when the code was run was /home/lecture1.
 
-The argument given is a relative path from home into the lecture1 directory and then into the messages directory. The lecture1 directory is in the home directory and the messages directory is in the lecture1 directory so the path given was valid and therefore no errors occurred.
+The argument given is a relative path from the working directory into the messages directory. The messages directory is in the lecture1 directory so the path given was valid and then the contents of the messages directory were listed. All of the files in the messages directory were properly listed in order so no errors occurred.
 
 ## ls Command With Path to a File
 > ![Image](abspath6.png)
