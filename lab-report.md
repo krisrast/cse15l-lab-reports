@@ -1,7 +1,5 @@
 # Lab Report 1
-
 ***
-
 ## cd Command With No Arguments
 ![Image](abspath1.PNG)
 
