@@ -1,7 +1,7 @@
 # Lab Report 1
 ***
 ## cd Command With No Arguments
-![Image](abspath1.PNG)
+![Image](abspath1.png)
 
 The working directory when the code was run was /home.
 
