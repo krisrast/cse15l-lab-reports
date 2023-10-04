@@ -50,7 +50,7 @@ The argument given is a valid absolute path to a text file inside of the message
 
 The working directory when the code was run was /home/lecture1.
 
-When there are no arguments given to the command ls it lists the contents of the working directory because having no argument is the same as inputting "./". "./" is the relative path to the working directory so the ls command lists what is in the working directory. Therefore, the command worked exactly as it should have so there is no error.
+When there are no arguments given to the command cat, instead of reading a file and writing it in standard form like it would usually be used for, it reads from keyboard inputs that are given and writes them in the next line. It will keep waiting to read from more and more keyboard input until an End-of-File signal is given. In this case, I gave the keyboard input "I will read and write keyboard input." and it returned the same thing that it read. Then I gave the End-of-File signal and the cat command stopped reading my keyboard inputs. No errors occurred as reading and writing keyboard input is a potential use of the cat command.
 
 ## cat Command With Path to a Directory
 > ![Image](abspath8.png)
