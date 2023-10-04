@@ -43,4 +43,4 @@ The argument given is a relative path from the working directory into the messag
 
 The working directory when the code was run was /home/lecture1.
 
-The argument given is a relative path from messages to the text file inside it named en-us.txt. However, since cd stands for change _directory_ and we used a files location as the argument, an error occurred stating that the path specified was not a directory.
+The argument given is a valid absolute path to a text file inside of the messages directory and the ls command returned the given argument back. If an absolute path was given, then it would output the same absolute path and if a relative path was given, then the same relative path would be outputted. If an invalid path was given as an argument, there would be an error, but in this case the argument was a valid path so there was no error. The ls command is used to display the contents of a _directory_ in a list and since the paths given were _files_ it simply returned the same path it was given.
