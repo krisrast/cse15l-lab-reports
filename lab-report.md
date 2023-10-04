@@ -8,7 +8,7 @@ Krishna Rastogi
 
 The working directory when the code was run was /home.
 
-When there are no arguments given to the command cd it just means that there is no path given to change directory to so we stay in the same directory. This is not an error because leaving the argument blank is the same as the argument "./" being inputted which is just the relative path to the current directory.
+When there are no arguments given to the command cd it is the same as giving the argument "./" to change directory so we stay in the same directory. This is not an error because the argument "./" being inputted is just the relative path to the current directory so we will stay in the same directory.
 
 ## cd Command With Path to a Directory
 > ![Image](abspath2.png)
@@ -29,7 +29,7 @@ The argument given is a relative path from messages to the text file inside it n
 
 The working directory when the code was run was /home/lecture1.
 
-When there are no arguments given to the command cd it just means that there is no path given to change directory to so we stay in the same directory. This is not an error because leaving the argument blank is the same as the argument "./" being inputted which is just the relative path to the current directory.
+When there are no arguments given to the command ls it lists the contents of the current working directory because having no argument is the same as inputting "./". "./" is the relative path to the current working directory so the ls command lists what is in the working directory. Therefore, the command worked exactly as it should have so there is no error.
 
 ## ls Command With Path to a Directory
 > ![Image](abspath5.png)
