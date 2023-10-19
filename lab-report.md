@@ -4,7 +4,7 @@ Krishna Rastogi
 
 ***
 ## cd Command With No Arguments
-> ![Image](abspath1.png)
+> ![Image](lab1correct.png)
 
 The working directory when the code was run was /home.
 
