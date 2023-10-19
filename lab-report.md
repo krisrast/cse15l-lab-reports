@@ -6,9 +6,9 @@ Krishna Rastogi
 ## cd Command With No Arguments
 > ![Image](lab1correct.png)
 
-The working directory when the code was run was /home.
+The working directory when the code was run was /home/lecture1/messages.
 
-When there are no arguments given to the command cd it is the same as giving the argument "./" to change directory so we stay in the same directory. This is not an error because the argument "./" being inputted is just the relative path to the current directory so we will stay in the same directory.
+When there are no arguments given to the command "cd", it takes you back to the home directory. This is not an error because certain shortcuts such as this one are intended with the "cd" command.
 
 ## cd Command With Path to a Directory
 > ![Image](abspath2.png)
