@@ -57,7 +57,7 @@ When there are no arguments given to the command cat, instead of reading a file 
 
 The working directory when the code was run was /home/lecture1.
 
-The argument given is a relative path from the working directory into the messages directory. The messages directory is in the lecture1 directory so the path given was valid and then the contents of the messages directory were listed. All of the files in the messages directory were properly listed in order so no errors occurred.
+The argument given is an absolute path to the messages directory. Since the "cat" command is used to view the contents of _files_ in the terminal and the path given is to a _directory_, there was an error and I recieved a message that the path specified is to a directory. Hence, an error occured when a path to a directory is used as the parameter for the "cat" command.
 
 ## cat Command With Path to a File
 > ![Image](abspath9.png)
